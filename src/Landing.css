@@ -1,3 +1,25 @@
 .Landing{
     width: 100%;
+    .parallax{
+        background-image: url('./media/beach.webp');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        height: 70vh;
+        width: 100%;
+        position: relative;
+    }
+    .parallax.ctd{
+        background-image: url('./media/beach2.webp');
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        flex-direction: column;
+        gap: 30px;
+        .btn-xl{
+            position: relative;
+            z-index: 10;
+        }
+    }
 }

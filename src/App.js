@@ -2,6 +2,7 @@ import './App.css';
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Landing from "./Landing.jsx";
 import Navbar from './Navbar.jsx'
+import Footer from './Footer.jsx'
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
     </Routes>
        
     </BrowserRouter>
+    <Footer />
     </div>
   );
 }

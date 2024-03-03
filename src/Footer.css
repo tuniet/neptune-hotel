@@ -1,0 +1,46 @@
+.Footer{
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    gap: 150px;
+    padding: 50px;
+    background-color: rgb(238, 245, 255);
+    color: #176B87;
+    .separator{
+        width: 400px;
+        height: 1px;
+        border-bottom: 2px solid #176B87;
+    }
+    h1{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .socials{
+        .links{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            span{
+                width: 50px;
+                cursor: pointer;
+                height: 50px;
+                margin-top: 30px;
+                background-color: #176B87;;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            svg{
+                color: rgb(238, 245, 255);
+                font-size: 30px;
+            }
+        }
+    }
+}

@@ -1,4 +1,9 @@
 .Amenities{
+    padding-bottom: 250px;
+    padding-top: 250px;
+    position: relative;
+    box-shadow: 0px 10px 13px 0px rgba(0,0,0,0.7);
+    z-index: 1;
     .info{
         margin-bottom: 150px;
     }
@@ -60,17 +65,14 @@
     .two{
         grid-column: 2;
         grid-row: 1;
-        background-color: red;
     }
     .three{
         grid-column: 1;
         grid-row: 3;
-        background-color: yellow;
     }
     .four{
         grid-column: 2;
         grid-row: 2 / 4;
-        background-color: green;
     }
 
 }

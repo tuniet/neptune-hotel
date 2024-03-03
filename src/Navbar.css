@@ -9,6 +9,7 @@
     transition: all .15s ease-in-out;
     transform: translateY(-100px);
     color: #EEF5FF;
+    z-index: 50;
     .right{
         display: flex;
         align-items: center;
@@ -43,7 +44,30 @@
         font-size: 30px;
         height: 30px;
         color: inherit;
+        cursor: pointer;
     }
+    .navMenubtn.active{
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+.close{
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    color:#176B87;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    opacity: 0;
+    cursor: pointer;
+    pointer-events: none;
+}
+.close.active{
+    opacity: 1;
+    z-index: 60;
+    pointer-events: all;
 }
 .Navbar.show{
     transform: translateY(0);
@@ -62,4 +86,36 @@
     .btn-xl{
         border: 2px solid #EEF5FF;
     }
+}
+.Navbar.active{
+    color: #176B87;
+}
+.Menu{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #B4D4FF;
+    z-index: 35;
+    transform: translateX(-100vw);
+    transition: transform .8s ease-in-out;
+    .list{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+        padding-top: 150px;
+        a{
+            text-decoration: none;
+            color: #176B87;
+            font-size: 40px;
+        }
+        a:hover{
+            color:#218fb4;
+        }
+    }
+}
+.Menu.active{
+    transform: translateX(0);
 }

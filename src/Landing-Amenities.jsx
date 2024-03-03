@@ -1,29 +1,35 @@
 import './LandingAmenities.css';
-import doubleroom from './media/double-room.webp'
+import rest from './media/rest1.webp'
+import pool from './media/pool1.webp'
+import spa from './media/spa.webp'
+import experience from './media/experience.webp'
+
 function LandingAmenities() {
   return (
       <div className='Amenities'>
-        <h1>Amenities</h1>
+        <h1>Facilities</h1>
         <p className='info'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non ornare elit, ut convallis metus. Phasellus consequat, mi eu porttitor facilisis</p>
         <div className="grid">
             <div className="card one">
-                <img src={doubleroom} alt=''/>
-                <h2>Spa</h2>
+                <img src={spa} alt=''/>
+                <h2>Spa & Wellness</h2>
                 <div className='front'/>
             </div>
             <div className="card two">
-                <img src={doubleroom} alt=''/>
-                <h2>Pool</h2>
+                <img src={pool} alt=''/>
+                <h2>Pool & Beach club</h2>
                 <div className='front'/>
             </div>
             <div className="card three">
-                <img src={doubleroom} alt=''/>
-                <h2>Restaurant</h2>
+                <img src={rest} alt=''/>
+                <h2>Restaurant & Bar</h2>
                 <div className='front'/>
             </div>
             <div className="card four">
-                <img src={doubleroom} alt=''/>
-                <h2>Other</h2>
+                <img src={experience} alt=''/>
+                <h2>Experiences</h2>
+                {// Boat trip, wine, massage
+                }
                 <div className='front'/>
             </div>
         </div>
