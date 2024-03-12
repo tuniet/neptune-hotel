@@ -6,7 +6,7 @@ import familysuite from './media/family-suite.webp'
 import oneroomvilla from './media/one-room-villa.webp'
 import superiorroom from './media/superior-room.webp'
 import { useEffect, useState } from 'react';
-
+import {Link} from "react-router-dom"
 function LandingRooms() {
     const [carImg, setcarImg] = useState(doubleroom)
     const [selected, setselected] = useState(0)
@@ -75,11 +75,11 @@ function LandingRooms() {
                 <span className='right' onClick={handleright}><MdKeyboardArrowRight /></span>
             </div>
             <div className="links">
-                <a className={selected === 0 ? 'active' : ''} href='/' onMouseEnter={handleDouble}>Double Room</a>
-                <a className={selected === 1 ? 'active' : ''} href='/' onMouseEnter={handleSuperior}>Superior Room</a>
-                <a className={selected === 2 ? 'active' : ''} href='/' onMouseEnter={handleExecutive}>Excutive Suite</a>
-                <a className={selected === 3 ? 'active' : ''} href='/' onMouseEnter={handleFamily}>Family Suite</a>
-                <a className={selected === 4 ? 'active' : ''} href='/' onMouseEnter={handleVilla}>One Room Villa</a>  
+                <Link className={selected === 0 ? 'active' : ''} to='/room/0' onMouseEnter={handleDouble}>Double Room</Link>
+                <Link className={selected === 1 ? 'active' : ''} to='/room/1' onMouseEnter={handleSuperior}>Superior Room</Link>
+                <Link className={selected === 2 ? 'active' : ''} to='/room/2' onMouseEnter={handleExecutive}>Excutive Suite</Link>
+                <Link className={selected === 3 ? 'active' : ''} to='/room/3' onMouseEnter={handleFamily}>Family Suite</Link>
+                <Link className={selected === 4 ? 'active' : ''} to='/room/4' onMouseEnter={handleVilla}>One Room Villa</Link>  
             </div>                      
         </div>
       </div>

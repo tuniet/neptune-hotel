@@ -1,18 +1,17 @@
 import './App.css';
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import {Routes, Route} from "react-router-dom";
 import Landing from "./Landing.jsx";
+import Room from './Room.jsx'
 import Navbar from './Navbar.jsx'
 import Footer from './Footer.jsx'
 function App() {
   return (
     <div className="App">
     <Navbar />
-    <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Landing />} />  
+      <Route path="/" element={<Landing />} />
+      <Route path="/room/:roomid" element={<Room />} />
     </Routes>
-       
-    </BrowserRouter>
     <Footer />
     </div>
   );
