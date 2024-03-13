@@ -27,7 +27,7 @@ import one3 from'./media/one3.webp'
 const Rooms = [
     {
         id: "0",
-        name: "doubleroom",
+        name: "Double Room",
         imgs: [double, double1, double2, double3],
         info: {
             size: 15,

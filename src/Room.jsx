@@ -16,9 +16,9 @@ function Room() {
                         <h1 className='title'>{r.name}</h1>
                     </div>
                     <div className='info'>
-                        <span>{r.info.size}</span>
-                        <span>{r.info.capacity}</span>
-                        <span>{r.info.bed}</span>
+                        <span><h3>SIZE</h3> {r.info.size} M²</span>
+                        <span className='mid'><h3>CAPACITY</h3> {r.info.capacity} Adults</span>
+                        <span><h3>BEDS</h3> {r.info.bed}</span>
                     </div>
                     <h1>HOME AWAY FROM HOME...</h1>
                     <h2>Gallery</h2>
