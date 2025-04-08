@@ -30,26 +30,30 @@ This website was developed as a personal project to practice and demonstrate fro
 To run this project locally:
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/tuniet/meraki.git
    ```
    
 2. Navigate into the folder:
-  ```bash
-  cd meraki
-  ```
+
+    ```bash
+     cd meraki
+   ```
 
 3. Install dependencies:
-  ```bash
-  npm install
-  ```
+
+    ```bash
+     npm install
+     ```
 
 4. Start the development server:
-  ```bash
-  npm run dev
-  ```
 
-5. Visit http://localhost:3000 in your browser, or the port that is shown on your terminal
+    ```bash
+     npm run dev
+     ```
+
+6. Visit http://localhost:3000 in your browser, or the port that is shown on your terminal
 
 ## 🌍 Deployment
 This web is deployed at:
