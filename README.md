@@ -1,11 +1,10 @@
-# WIP - WEB STILL UNDER DEVELOPMENT
 # 🏨 Neptune Hotel – Luxury Hotel Website
 
 Welcome to the official website of **Neptune Hotel**, a fictional luxury resort built as a modern front-end development project. This responsive and elegant site allows visitors to explore rooms, view amenities, and book their stay at the Neptune Hotel.
 
 ## 🌊 About Neptune Hotel
 
-**Neptune Hotel** offers guests an unforgettable oceanfront experience. This project was created to simulate a real-world hotel website with a focus on clean UI, responsive design, and an intuitive user experience.
+**Neptune Hotel** offers guests an unforgettable oceanfront experience. This project was created to simulate a real-world landing page for a hotel website with a focus on clean UI, responsive design, and an intuitive user experience.
 
 ## 🎯 Project Purpose
 
@@ -19,11 +18,6 @@ This website was developed as a personal project to practice and demonstrate fro
 ## ✨ Future implementations
 
 - 📱 Responsive design (mobile, tablet, desktop)
-- 🛏️ Explore rooms with descriptions, pricing, and images
-- 🍽️ View hotel amenities and dining options
-- 📅 Booking form with validation
-- 🗺️ Contact section with embedded map and contact info
-- 🎨 Elegant design and smooth animations
 
 ## 🧠 Run Locally
 
